@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "b6e2034af91c7850d2ab",
+  "position": {
+    "x": 640,
+    "y": 20,
+    "z": 1002,
+    "height": 120,
+    "width": 290,
+    "tabOrder": 1002
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_Ventas"
+                    }
+                  },
+                  "Property": "Ventas Online"
+                }
+              },
+              "queryRef": "FACT_Ventas.Ventas Online",
+              "nativeQueryRef": "Ventas Online"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Ventas Online (Jose_Miguel)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
