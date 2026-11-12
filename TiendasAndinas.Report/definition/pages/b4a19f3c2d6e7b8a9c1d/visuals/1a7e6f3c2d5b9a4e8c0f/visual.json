@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "1a7e6f3c2d5b9a4e8c0f",
+  "position": {
+    "x": 700,
+    "y": 20,
+    "z": 1002,
+    "height": 120,
+    "width": 300,
+    "tabOrder": 1002
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_Ventas"
+                    }
+                  },
+                  "Property": "# Órdenes"
+                }
+              },
+              "queryRef": "FACT_Ventas.# Órdenes",
+              "nativeQueryRef": "# Órdenes"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'# Órdenes (Bruno)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
