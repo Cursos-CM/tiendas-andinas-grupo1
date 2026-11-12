@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "a3f1c7e92b4d6085e1f2",
+  "displayName": "Página de Isa",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}
