@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "9e0f6a21c4d5b7e8a1f2",
+  "position": {
+    "x": 800,
+    "y": 20,
+    "z": 1001,
+    "height": 120,
+    "width": 460,
+    "tabOrder": 1001
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_Ventas"
+                    }
+                  },
+                  "Property": "# Órdenes"
+                }
+              },
+              "queryRef": "FACT_Ventas.# Órdenes",
+              "nativeQueryRef": "# Órdenes"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Órdenes (Luz)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
