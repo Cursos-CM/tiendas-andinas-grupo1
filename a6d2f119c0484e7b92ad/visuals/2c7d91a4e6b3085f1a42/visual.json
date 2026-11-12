@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "2c7d91a4e6b3085f1a42",
+  "position": {
+    "x": 930,
+    "y": 20,
+    "z": 2,
+    "height": 120,
+    "width": 320,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_Ventas"
+                    }
+                  },
+                  "Property": "Diferencia vs Presupuesto"
+                }
+              },
+              "queryRef": "FACT_Ventas.Diferencia vs Presupuesto",
+              "nativeQueryRef": "Diferencia vs Presupuesto"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Diferencia vs Presupuesto (JoseManuelRod)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
