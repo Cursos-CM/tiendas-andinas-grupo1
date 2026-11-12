@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "b4a1f072c8e36d5190ab",
+  "displayName": "Página de Pablo",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}
